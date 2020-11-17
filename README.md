@@ -1,4 +1,37 @@
 # iOSAppWideFontChange
+Steps;
+1. Copy fonts to Project with "Copyh if needed" tick.
+2. Paste the code below.
+3. Add font to info.plist. 
+
+
+
+"""
+
+
+
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Thin.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-ExtraBoldItalic.ttf</string>
+		<string>Montserrat-ExtraBold.ttf</string>
+		<string>Montserrat-BoldItalic.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-SemiBoldItalic.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-ExtraLightItalic.ttf</string>
+		<string>Montserrat-ExtraLight.ttf</string>
+		<string>Montserrat-ThinItalic.ttf</string>
+	</array>
+
 
 
     for family in UIFont.familyNames.sorted() {
